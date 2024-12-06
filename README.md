@@ -1,7 +1,7 @@
 # opencv_template_matching_ibga
 ![image](https://github.com/user-attachments/assets/86f9735d-cd68-42bd-8da1-b5acb539ad1a)
 
-'''
+'''python
 
 def my_match_tm_1(image, template, w_crop, h_crop, output_file, search_zone='top_left'):
     import cv2
