@@ -1,7 +1,7 @@
 # opencv_template_matching_ibga
 ![image](https://github.com/user-attachments/assets/86f9735d-cd68-42bd-8da1-b5acb539ad1a)
 
-```
+```python
 def my_match_tm_1(image, template, w_crop, h_crop, output_file, search_zone='top_left'):
     import cv2
     import numpy as np
@@ -79,4 +79,9 @@ def my_match_tm_1(image, template, w_crop, h_crop, output_file, search_zone='top
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
+```
+Sample call
+
+```python
+my_match_tm_1('image.jpg', 'template.jpg', 0.5, 0.5, 'output.jpg', search_zone='bottom_right')
 ```
