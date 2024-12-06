@@ -85,5 +85,5 @@ def my_match_tm_1(image, template, w_crop, h_crop, output_file, search_zone='top
 Sample call
 
 ```python
-my_match_tm_1('image.jpg', 'template.jpg', 0.5, 0.5, 'output.jpg', search_zone='bottom_right')
+my_match_tm_1('image.jpg', 'template.jpg', 0.4, 0.4, 'output.jpg', search_zone='top_left')
 ```
